@@ -2,7 +2,7 @@ pipeline {
     agent { label 'Sonar Qube' }
 
     tools {
-        jdk 'JDK17'
+        jdk 'JDK21'
         maven 'Maven'
     }
 
